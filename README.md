@@ -69,7 +69,7 @@ Once all parts are set up, you can use BlendIt by following these steps:
 
 Visit our landing page to download the BlendIt application and register for an account. The landing page provides detailed information about the features of BlendIt, and a simple registration process to get started with our service.
 
-[Our Website](#www.blendit.my.id)
+[Our Website](www.blendit.my.id)
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to us:
@@ -83,6 +83,9 @@ We appreciate your feedback!
 ## Download apk
 You can download the latest version of the BlendIt APK from the link below:
 
-- [Download Latest](#www.blendit.my.id)
+- [Download Latest]()
+
+<br>
+<br>
 
 > # *BlendIt - Blending Data for a Brighter Future*
