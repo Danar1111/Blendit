@@ -64,8 +64,8 @@ Once all parts are set up, you can use BlendIt by following these steps:
 
 ## Landing Page
 
-! [landing page](./Images/landingpage1.png)
-! [landing page](./Images/landingpage2.png)
+![landingpage](./Images/landingpage1.png)
+![landingpage](./Images/landingpage2.png)
 
 Visit our landing page to download the BlendIt application and register for an account. The landing page provides detailed information about the features of BlendIt, and a simple registration process to get started with our service.
 
