@@ -1,1 +1,1 @@
-# Blendit
+# Blendit (Mobile Development)
