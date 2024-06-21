@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/button_analyst</item>
+        <item name="android:textColor">#FFFFFF</item> <!-- Text color -->
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawableStart">@drawable/ic_analyst</item> <!-- Icon -->
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="CustomSearchBar">
+        <item name="shapeAppearanceOverlay">@style/CustomSearchBarShape</item>
+        <item name="android:backgroundTint">@color/gray</item>
+    </style>
+
+    <style name="CustomSearchBarShape" parent="ShapeAppearanceOverlay.Material3.SearchBar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

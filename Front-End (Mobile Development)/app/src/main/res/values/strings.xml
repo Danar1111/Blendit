@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Blendit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="skin_tone_array">
+        <item>light</item>
+        <item>light-medium</item>
+        <item>medium</item>
+        <item>medium-dark</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="undertone_array">
+        <item>warm</item>
+        <item>cool</item>
+        <item>neutral</item>
+    </string-array>
+
+    <string-array name="skin_type_array">
+        <item>oily</item>
+        <item>dry</item>
+        <item>combination</item>
+    </string-array>
+
+    <string name="rekomendasi_produk">Rekomendasi Produk</string>
+    <string name="makeup_category">Makeup\nCategory</string>
+    <string name="foto_profil">Foto Profil</string>
+</resources>
