@@ -69,12 +69,10 @@ Once all parts are set up, you can use BlendIt by following these steps:
 
 Visit our landing page to download the BlendIt application and register for an account. The landing page provides detailed information about the features of BlendIt, and a simple registration process to get started with our service.
 
-<a href="www.blendit.my.id" target="_blank">Our website</a>
+[Our Website](https://generated-armor-424304-c8.et.r.appspot.com)
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to us:
-
-Email: contact@blendit.com
 
 GitHub Issues: https://github.com/Danar1111/Blendit/issues
 
@@ -83,7 +81,7 @@ We appreciate your feedback!
 ## Download apk
 You can download the latest version of the BlendIt APK from the link below:
 
-- [Download Latest]()
+- [Download Latest](blendit.apk)
 
 <br>
 <br>
