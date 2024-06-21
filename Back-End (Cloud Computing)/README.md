@@ -45,6 +45,10 @@ Cloud computing, handles API requests and API responses by processing the logic 
 
     nodemon is a utility that automatically restarts your Node.js application when file changes are detected. This is particularly useful during development, as it eliminates the need to manually stop and restart the server every time you make changes to your code.
 
+## Architecture
+![Architecture](../Images/architecture1.png)
+![Architecture](../Images/architecture2.png)
+
 ## How to use
 The following are the steps you can take if you want to use or run this program locally:
 ```bash
