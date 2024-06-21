@@ -1,13 +1,23 @@
 package com.android.blendit.ui.activity.main
 
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.android.blendit.preference.AccountPreference
 import com.android.blendit.viewmodel.Repository
+import com.denzcoskun.imageslider.models.SlideModel
 import okhttp3.MultipartBody
 
 class MainViewModel(accountPreference: AccountPreference) : ViewModel() {
 
     private val repository = Repository(accountPreference)
+
+    private val _imageList = MutableLiveData<MutableList<SlideModel>>()
+    val imageList: LiveData<MutableList<SlideModel>> = _imageList
+
+    fun setImagelist(imageListData: MutableList<SlideModel>){
+        _imageList.postValue(imageListData)
+    }
 
     val loginInfo = repository.loginInfo
 

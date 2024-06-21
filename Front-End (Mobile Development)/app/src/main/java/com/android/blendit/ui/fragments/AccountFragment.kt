@@ -73,13 +73,15 @@ class AccountFragment : Fragment() {
                 }
             }
             tfPassword.doAfterTextChanged {
+                val pass = tfPassword.text.toString()
                 tvPass.visibility =
-                    if (tfPassword.text.toString().length >= 6) View.GONE else View.VISIBLE
+                    if (pass.length >= 6 || pass.isEmpty()) View.GONE else View.VISIBLE
             }
             tfRetypePass.doAfterTextChanged {
+                val pass = tfPassword.text.toString()
+                val retypePass = binding.tfRetypePass.text.toString()
                 tvRetypePass.visibility =
-                    if (tfPassword.text.toString() == binding.tfRetypePass.text.toString())
-                        View.GONE else View.VISIBLE
+                    if (pass == retypePass || retypePass.isEmpty()) View.GONE else View.VISIBLE
             }
         }
     }

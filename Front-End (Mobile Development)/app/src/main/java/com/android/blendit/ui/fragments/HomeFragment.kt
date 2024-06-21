@@ -24,7 +24,6 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
     private val adapter = AdapterListProduct()
-    private val imageList = mutableListOf<SlideModel>()
     private val accountPreference by lazy { AccountPreference(requireActivity()) }
     private val mainViewModel by activityViewModels<MainViewModel> {
         ViewModelFactory(
@@ -66,9 +65,13 @@ class HomeFragment : Fragment() {
                 )
             )
         }
+        mainViewModel.imageList.observe(viewLifecycleOwner) { imageList ->
+            binding.imageSlider.setImageList(imageList)
+        }
     }
 
     private fun fetchUnsplashImage() {
+        val imageList = mutableListOf<SlideModel>()
         mainViewModel.getUnsplashImage().observe(viewLifecycleOwner) { result ->
             if (result is Result.Success) {
                 if (imageList.isEmpty()) {
@@ -76,7 +79,7 @@ class HomeFragment : Fragment() {
                         val imageUrl = result.data[i].urls.regular
                         imageList.add(SlideModel(imageUrl, ScaleTypes.CENTER_CROP))
                     }
-                    binding.imageSlider.setImageList(imageList)
+                    mainViewModel.setImagelist(imageList)
                 }
             }
         }
