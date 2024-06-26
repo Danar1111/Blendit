@@ -81,7 +81,7 @@ We appreciate your feedback!
 ## Download apk
 You can download the latest version of the BlendIt APK from the link below:
 
-- [Download Latest](https://github.com/anythinks/blendit-capstone-project/releases/tag/release)
+- [Download Latest](https://github.com/aldnazr/blendit-capstone-project/releases/tag/release)
 
 <br>
 <br>
